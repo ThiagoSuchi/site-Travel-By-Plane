@@ -14,6 +14,7 @@ body {
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 4%;
 }
 
 header .btn-contato button, .hero-site button, .hoteis button {
@@ -191,7 +192,7 @@ section.contatos {
 }
 
 .contatos .sec-contatos .txt-contatos h3 {
-    font-size: 3em;
+    font-size: 2.7em;
     line-height: 50px;
     margin-bottom: 20px;
 }
@@ -255,7 +256,7 @@ section.hoteis {
     background-position: center;
     background-size: cover;/* A imagem irá cobrir todo espaço feito para ela */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;/* O fundo é fixo em relação à viewport. Mesmo que um elemento tenha um mecanismo de rolagem, o fundo não se move com o elemento. */
 
     position: relative;
     color: rgb(208, 205, 205);
@@ -372,7 +373,7 @@ section.como-funciona {
 
 
 footer {
-    background-color: black;
+    background-color: rgb(25, 37, 62);
     width: 100%;
     text-align: center;
     padding: 30px 0;
@@ -412,3 +413,8 @@ footer .bottom-footer p {
     color: white;
     margin-top: 10px;
 }
+
+
+
+
+
